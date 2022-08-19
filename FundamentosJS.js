@@ -1,13 +1,7 @@
-var a = 1;
-var b = 2;
+let name = "Ansu";
+let lastname = "Silva";
 
-if (a == 1){
-    var a = 11;
-    let b = 22;
+ // let concatenado = name + " " + lastname;
+ //let concatenado = `${name} ${lastname}`
 
-    console.log(a);
-    console.log(b);
-}
-
-console.log(a);
-console.log(b);
+console.log(`${name} ${lastname}`);
